@@ -12,7 +12,7 @@ This repository contains a Visual Studio Team Services plugin called "Azure App 
 More information here: https://www.visualstudio.com/docs/integrate/extensions/develop/add-build-task
 
 
-## How to build & publish
+## Build & publish
 
 * Execute: tfx extension create --manifest-globs vss-extension.json
 * Upload to: https://marketplace.visualstudio.com/manage/publishers/rbengtsson
@@ -29,4 +29,3 @@ More information here: https://www.visualstudio.com/docs/integrate/extensions/de
 * Manifest examples:
   * https://github.com/jessehouwing/vsts-extension-tasks/blob/master/vss-extension.json
   * https://russellyoung.net/2016/06/18/visual-studio-team-system-vstsbuild-and-release-task-powershell-extensions/
-  
