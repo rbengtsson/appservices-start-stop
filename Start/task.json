@@ -1,4 +1,3 @@
-
 {
     "id": "cbebb02b-11c6-4e24-b5a8-0b51366d51b7",
     "name": "Start",
@@ -13,7 +12,7 @@
     "version": {
         "Major": 0,
         "Minor": 2,
-        "Patch": 2
+        "Patch": 3
     },
 	"demands": [
 		"azureps"
@@ -27,14 +26,36 @@
         }
     ],
     "inputs": [		
-	    {
-	      "name": "ConnectedServiceName",
-	      "type": "connectedService:Azure",
-	      "label": "Azure Classic Subscription",
-	      "defaultValue": "",
-	      "required": true,
-	      "helpMarkDown": "Azure Classic subscription to target for copying the files."
-	    },
+        {
+            "name": "ConnectedServiceNameSelector",
+            "type": "pickList",
+            "label": "Azure Connection Type",
+            "required": false,
+            "helpMarkDown": "",
+            "defaultValue": "ConnectedServiceName",
+            "options": {
+                "ConnectedServiceName": "Azure Classic",
+                "ConnectedServiceNameARM": "Azure Resource Manager"
+            }
+        },
+        {
+            "name": "ConnectedServiceName",
+            "type": "connectedService:Azure",
+            "label": "Azure Classic Subscription",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Azure Classic subscription to configure before running PowerShell",
+            "visibleRule": "ConnectedServiceNameSelector = ConnectedServiceName"
+        },
+        {
+            "name": "ConnectedServiceNameARM",
+            "type": "connectedService:AzureRM",
+            "label": "Azure RM Subscription",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Azure Resource Manager subscription to configure before running PowerShell",
+            "visibleRule": "ConnectedServiceNameSelector = ConnectedServiceNameARM"
+        },
         {
             "name": "WebAppName",
             "type": "string",
