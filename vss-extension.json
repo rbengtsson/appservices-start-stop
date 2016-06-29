@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "appservices-start-stop",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "name": "Azure App Services - Start and Stop",
     "description": "Tasks for starting and stopping an Azure App Service as a part of a VSTS build",
     "publisher": "rbengtsson",
@@ -16,13 +16,14 @@
     "categories": [
     	"Build and release"
     ],
+    "branding": {
+        "color": "rgb(36, 43, 50)",
+        "theme": "dark"
+    },    
     "icons": {
-        "default": "icon.png"
+        "default": "images/icon.png"
     },    
     "files": [
-        {
-          "path": "icon.png"
-        },              
         {
           "path": "Stop/Stop.ps1"
         },
