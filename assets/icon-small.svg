@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="icon.svg">
+   sodipodi:docname="icon-small.svg"
+   inkscape:export-filename="C:\source\vstsext\appservices-start-stop\Stop\icon.png"
+   inkscape:export-xdpi="23.040001"
+   inkscape:export-ydpi="23.040001">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,8 +29,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="434.40489"
-     inkscape:cy="154.51535"
+     inkscape:cx="432.38458"
+     inkscape:cy="275.73366"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -64,22 +67,27 @@
        width="500"
        height="500"
        x="97.14286"
-       y="131.62091" />
-    <g
-       id="g4278"
-       transform="translate(2.6812662,0)">
-      <path
-         inkscape:connector-curvature="0"
-         id="rect4181"
-         d="m 190.91797,306.28595 0,150.66992 141.42187,-76.54101 0,-0.45899 -141.42187,-73.66992 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
-      <rect
-         y="305.85947"
-         x="356.58386"
-         height="151.52289"
-         width="141.42136"
-         id="rect4181-6"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
-    </g>
+       y="131.62091"
+       inkscape:export-filename="C:\source\vstsext\appservices-start-stop\images\icon.png"
+       inkscape:export-xdpi="23.040001"
+       inkscape:export-ydpi="23.040001" />
+    <path
+       style="fill:#7dc5ed;fill-opacity:1;stroke:none"
+       d="m 193.59924,306.28595 0,150.66992 141.42187,-76.54101 0,-0.45899 -141.42187,-73.66992 z"
+       id="rect4181"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\source\vstsext\appservices-start-stop\images\icon.png"
+       inkscape:export-xdpi="23.040001"
+       inkscape:export-ydpi="23.040001" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4181-6"
+       width="141.42136"
+       height="151.52289"
+       x="359.26514"
+       y="305.85947"
+       inkscape:export-filename="C:\source\vstsext\appservices-start-stop\images\icon.png"
+       inkscape:export-xdpi="23.040001"
+       inkscape:export-ydpi="23.040001" />
   </g>
 </svg>
