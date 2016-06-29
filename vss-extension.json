@@ -1,0 +1,67 @@
+{
+    "manifestVersion": 1,
+    "id": "appservices-start-stop",
+    "version": "0.2.1",
+    "name": "Azure App Services - Start and Stop",
+    "description": "Tasks for starting and stopping an Azure App Service as a part of a VSTS build",
+    "publisher": "rbengtsson",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "scope": [
+        "vso.build"
+    ],    
+    "categories": [
+    	"Build and release"
+    ],
+    "icons": {
+        "default": "icon.png"
+    },    
+    "files": [
+        {
+          "path": "icon.png"
+        },              
+        {
+          "path": "Stop/Stop.ps1"
+        },
+        {
+          "path": "Stop/task.json"
+        },
+        {
+          "path": "Stop/icon.png"
+        },        
+        {
+          "path": "Start/Start.ps1"
+        },
+        {
+          "path": "Start/task.json"
+        },
+        {
+          "path": "Start/icon.png"
+        }        
+    ],
+   "contributions": [
+        {
+          "id": "Stop",
+          "type": "ms.vss-distributed-task.task",
+          "targets": [
+            "ms.vss-distributed-task.tasks"
+          ],
+          "properties": {
+            "name": "Stop"
+          }
+        },
+        {
+          "id": "Start",
+          "type": "ms.vss-distributed-task.task",
+          "targets": [
+            "ms.vss-distributed-task.tasks"
+          ],
+          "properties": {
+            "name": "Start"
+          }
+        }
+    ]   
+}

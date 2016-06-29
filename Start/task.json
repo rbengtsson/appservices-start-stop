@@ -1,0 +1,57 @@
+
+{
+    "id": "cbebb02b-11c6-4e24-b5a8-0b51366d51b7",
+    "name": "Start",
+    "friendlyName": "Azure App Services Start",
+    "description": "Task for starting an Azure App Service as a part of a VSTS build",
+    "category": "Utility",
+    "visibility": [
+        "Build",
+        "Release"
+    ],
+    "author": "rbengtsson",
+    "version": {
+        "Major": 0,
+        "Minor": 2,
+        "Patch": 1
+    },
+	"demands": [
+		"azureps"
+	],
+    "minimumAgentVersion": "1.101.2",
+    "groups": [
+        {
+            "name": "advanced",
+            "displayName": "Advanced",
+            "isExpanded": false
+        }
+    ],
+    "inputs": [		
+	    {
+	      "name": "ConnectedServiceName",
+	      "type": "connectedService:Azure",
+	      "label": "Azure Classic Subscription",
+	      "defaultValue": "",
+	      "required": true,
+	      "helpMarkDown": "Azure Classic subscription to target for copying the files."
+	    },
+        {
+            "name": "WebAppName",
+            "type": "string",
+            "label": "Web App Name",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Enter the name of an existing Azure App Service Application."
+        }
+    ],
+	"execution": {
+	    "AzurePowerShell": {
+			"target": "$(currentDirectory)\\Start.ps1",
+			"argumentFormat": "",
+			"workingDirectory": "$(currentDirectory)"
+	    }
+	},
+	"instanceNameFormat": "Azure AppServices Start",
+    "messages": {
+    }    
+}
