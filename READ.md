@@ -1,4 +1,5 @@
 
+This is tasks for starting and stopping an Azure App Service as a part of a VSTS build.
 
 
 ## Installing build env
