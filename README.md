@@ -25,8 +25,32 @@ The tasks has been tested with a hosted instance of VSTS in combination with Azu
 Configuration of the build steps is done similar to the standard Azure PowerShell build step, i.e. you will have to connect your subscription to VSTS and then select your subscription from a list. You will also have to specify the name of the AppService to stop / start.
 
 
+# License and usage
 
-# Developting and building the extension
+MIT License
+
+Copyright (c) 2016 Robert Bengtsson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+# Developing and building the extension
 
 This section contains techical information that is only useful if you want to enhance / improve the extension yourself.
 
@@ -35,7 +59,7 @@ This section contains techical information that is only useful if you want to en
 
  * Get code from github
  * Install NPM
- * npm i -g tfx-cli
+ * Install TFS-tools by executing: npm i -g tfx-cli
 
 More information here: https://www.visualstudio.com/docs/integrate/extensions/develop/add-build-task
 
