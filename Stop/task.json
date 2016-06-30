@@ -1,7 +1,7 @@
 {
     "id": "9a610776-bf44-420c-8c39-6c3eaa907b19",
     "name": "Stop",
-    "friendlyName": "Azure App Services Stop",
+    "friendlyName": "Azure AppServices / WebApp Stop",
     "description": "Task for stopping an Azure App Service as a part of a VSTS build",
     "category": "Utility",
     "visibility": [
@@ -12,7 +12,7 @@
     "version": {
         "Major": 0,
         "Minor": 2,
-        "Patch": 4
+        "Patch": 5
     },
 	"demands": [
 		"azureps"

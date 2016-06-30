@@ -1,9 +1,10 @@
 {
     "manifestVersion": 1,
     "id": "appservices-start-stop",
-    "version": "0.2.4",
+    "version": "0.2.5",
     "name": "Azure App Services - Start and Stop",
     "description": "Tasks for starting and stopping an Azure App Service as a part of a VSTS build",
+    "public": true,
     "publisher": "rbengtsson",
     "targets": [
         {
@@ -19,11 +20,20 @@
     "links": {
         "getstarted": {
           "uri": "https://github.com/rbengtsson/appservices-start-stop"
-        },
-        "support": {
-          "uri": "https://github.com/rbengtsson/appservices-start-stop"
         }
     },   
+    "tags": [
+        "azure",
+        "appservices",
+        "webapp",
+        "website",
+        "restart"
+    ],  
+    "content": {
+        "details": {
+          "path": "marketplace-info.md"
+        }
+    },
     "branding": {
         "color": "rgb(36, 43, 50)",
         "theme": "dark"
