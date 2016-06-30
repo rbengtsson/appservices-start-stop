@@ -1,5 +1,5 @@
 
-This repository contains a Visual Studio Team Services plugin called "Azure App Services - Start and Stop". 
+This repository contains a Visual Studio Team Services plugin called "Azure App Services - Start and Stop". More information is available on the Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=rbengtsson.appservices-start-stop
 
 
 # Using the extension
