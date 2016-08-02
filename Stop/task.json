@@ -11,13 +11,13 @@
     "author": "rbengtsson",
     "version": {
         "Major": 0,
-        "Minor": 2,
-        "Patch": 5
+        "Minor": 3,
+        "Patch": 0
     },
 	"demands": [
 		"azureps"
 	],
-    "minimumAgentVersion": "1.101.2",
+    "minimumAgentVersion": "1.95.3",
     "groups": [
         {
             "name": "advanced",
@@ -63,6 +63,14 @@
             "defaultValue": "",
             "required": true,
             "helpMarkDown": "Enter the name of an existing Azure App Service Application."
+        },
+        {
+            "name": "Slot",
+            "type": "string",
+            "label": "Slot",
+            "defaultValue": "",
+            "required": false,
+            "helpMarkDown": "Enter the name of the deployment slot you wish to deploy to (optional)."
         }
     ],  
 	"execution": {
