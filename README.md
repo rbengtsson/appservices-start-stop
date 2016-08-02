@@ -24,12 +24,26 @@ The tasks has been tested with a hosted instance of VSTS in combination with Azu
 
 Configuration of the build steps is done similar to the standard Azure PowerShell build step, i.e. you will have to connect your subscription to VSTS and then select your subscription from a list. You will also have to specify the name of the AppService to stop / start.
 
+You may also specify the deployment slot if you are using that. Just leave the field empty if you are not using deployment slots.
+
+NB. Azure Resource Manager connection types may not be work in the current version.
+
+
+## Todo ##
+
+Pull requests on below items are appreciated :-)
+
+ * Implement support for Azure Resource Manager Connection Type
+   * http://stackoverflow.com/questions/38304862/tfs-no-default-subscription-has-been-designated-use-select-azuresubscription
+   * http://stackoverflow.com/questions/25100669/can-i-automatically-start-and-stop-an-azure-website-on-a-schedule#comment58885466_32137700
+   * https://azure.microsoft.com/en-us/documentation/articles/powershell-azure-resource-manager/
+
 
 ## Contributors ##
 
  * Robert Bengtsson - https://github.com/rbengtsson
  * Greg Pakes - https://github.com/gregpakes
- 
+
 
 # License and usage
 
