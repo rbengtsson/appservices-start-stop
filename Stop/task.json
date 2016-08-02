@@ -70,7 +70,7 @@
             "label": "Slot",
             "defaultValue": "",
             "required": false,
-            "helpMarkDown": "Enter the name of the deployment slot you wish to deploy to (optional)."
+            "helpMarkDown": "Enter the name of the deployment slot you wish to deploy to (optional). Leave this field empty if you're not using deployment slots."
         }
     ],  
 	"execution": {

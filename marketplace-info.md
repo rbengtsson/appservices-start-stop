@@ -19,6 +19,11 @@ The tasks has been tested with a hosted instance of VSTS in combination with Azu
 Configuration of the build steps is done similar to the standard Azure PowerShell build step, i.e. you will have to connect your subscription to VSTS and then select your subscription from a list. You will also have to specify the name of the AppService to stop / start.
 
 
+## Contributors ##
+
+ * Robert Bengtsson - https://github.com/rbengtsson
+ * Greg Pakes - https://github.com/gregpakes
+
 
 ## More information ##
 
