@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "appservices-start-stop",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "name": "Azure App Services - Start and Stop",
     "description": "Tasks for starting and stopping an Azure App Service as a part of a VSTS build",
     "public": true,
