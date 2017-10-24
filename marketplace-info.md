@@ -20,13 +20,12 @@ Configuration of the build steps is done similar to the standard Azure PowerShel
 
 You may also specify the deployment slot if you are using that. Just leave the field empty if you are not using deployment slots.
 
-NB. Azure Resource Manager connection types may not be work in the current version.
-
 
 ## Contributors ##
 
  * Robert Bengtsson - https://github.com/rbengtsson
  * Greg Pakes - https://github.com/gregpakes
+ * Joseph Jacobson - https://github.com/flyingpilot3006
 
 
 ## More information ##
