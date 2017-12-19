@@ -75,6 +75,7 @@ More information here: https://www.visualstudio.com/docs/integrate/extensions/de
 
 ## Build & publish
 
+* Update version in all json-files (vss-extension.json, Start/task.json, Stop/task.json)
 * Create a package by executing: tfx extension create --manifest-globs vss-extension.json
 * Upload the result to: https://marketplace.visualstudio.com/manage/publishers/rbengtsson
 
