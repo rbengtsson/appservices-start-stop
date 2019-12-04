@@ -1,4 +1,10 @@
 
+NOTICE!
+
+This plugin is deprecated and has been unpublished from Visual Studio Marketplace. Please use the standard tasks that now exists for stopping and starting your Azure Web Apps in your Azure DevOps builds and releases.
+
+---
+
 This repository contains a Visual Studio Team Services plugin called "Azure App Services - Start and Stop". More information is available on the Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=rbengtsson.appservices-start-stop
 
 
